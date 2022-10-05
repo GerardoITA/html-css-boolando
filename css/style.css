@@ -2,3 +2,135 @@
     box-sizing: border-box;
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    height: 100px;
+    width: 99vw;
+    color: white;
+    font-weight: 600;
+    position: fixed;
+    background-color: rgb(241, 97, 31);
+}
+#debug { 
+    height: 100px;
+    width: 99vw;
+}
+.position {
+    position: relative;
+}
+main { 
+    height: auto;
+    width: 99vw;
+}
+footer {
+    height: 100px;
+    width: 99vw;
+    position: relative;
+    background-color: rgb(26, 26, 26);
+}
+/* //////////////////// Header //////////////////// */
+.left_menu {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    transform: translate(-25%, -0%);
+}
+.right_menu {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 25%;
+    top: 25%;
+
+}
+.right_menu i {
+    margin: 10px;
+}
+.left_menu ul {
+    float: left;
+    margin: 10px;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    background-image: url(../img/boolean-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+/* //////////////////// Main //////////////////// */
+.row {
+    height: 50%;
+    width: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+.product {
+    display: inline-block;
+    height: 1124px;
+    width: 640px;
+    margin: auto;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////// Footer //////////////////// */
+.company {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    transform: translate(-25%, -0%);
+    color: white;
+}
+#company_name  {
+    margin-left: 7.5%;
+    
+}
+.company ul {
+    float: left;
+    margin: 1px;
+}
+.social {
+    position: absolute;
+    right: 25%;
+    top: 25%;
+    transform: translate(-25%, -0%);
+    color: white;
+}
+.social i {
+    margin-left: 10px;
+    transform: translate(-50%, 25%);
+}
