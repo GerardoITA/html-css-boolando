@@ -75,12 +75,24 @@ footer {
     justify-content: center;
 
 }
+img {
+    width: 422px;
+    height: auto;
+}
 .product {
     display: inline-block;
-    height: 1124px;
-    width: 640px;
+    height: 741px;
+    width: 422px;
     margin: auto;
-    background-color: blue;
+}
+.brand {
+    display: block;
+}
+.price {
+    color: red;
+}
+.discount {
+    text-decoration: line-through;
 }
 
 
