@@ -12,6 +12,7 @@ header {
     color: white;
     font-weight: 600;
     position: fixed;
+    z-index: 100;
     background-color: rgb(241, 97, 31);
 }
 #debug { 
@@ -70,7 +71,6 @@ footer {
 .row {
     height: 50%;
     width: auto;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
 
@@ -84,6 +84,7 @@ img {
     height: 741px;
     width: 422px;
     margin: auto;
+    position: relative;
 }
 .brand {
     display: block;
@@ -94,11 +95,39 @@ img {
 .discount {
     text-decoration: line-through;
 }
-
-
-
-
-
+.tags {
+    color: white;
+    position: absolute;
+    bottom: 40%;
+    left: 0%;
+    font-weight: 600;
+    display: flex;
+    justify-content: left;
+}
+.tags * {
+    margin-right: 5px;
+    padding: 2px 5px;
+}
+.discount-percentage {
+    background-color: red;
+}
+.green {
+    background: green;
+}
+.add-to-favorites {
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    background-color: white;
+    text-align: center;  
+}
+.red:hover {
+    color: red;
+    cursor: pointer;
+}
 
 
 
